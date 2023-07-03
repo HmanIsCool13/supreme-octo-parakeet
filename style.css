@@ -1,0 +1,20 @@
+h3
+{
+    font-size: 25px !important;
+}
+.btn_success:hover
+{
+    background-color: red;
+}
+canvas{
+    animation-name: shushMAAM;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 200px;
+}
+
+@keyframes shushMAAM{
+from{box-shadow: 10px 10px 50px red}
+to{box-shadow: 10px 10px 50px yellow}
+
+}
